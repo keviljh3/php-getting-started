@@ -60,7 +60,7 @@ $url=$user[$vipnum].$vurl;
 for ($x=0; $x<=count($user)-1; $x++)
 { //遍历数组，每个元素单行输出
 print('<a style="text-decoration:none;" href="');
-echo "http://x3.713713.xyz/vip/vip3.php?"."vipchoice=".$x."&p=".$vurl;
+echo "https://herojuno1.herokuapp.com/vip/vip3.php?"."vipchoice=".$x."&p=".$vurl;
 print('">');
 echo "【".$x."】";
 print('</a>');
