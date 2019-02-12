@@ -9,9 +9,9 @@ if ($cs=="" || $cs==null)
 {
 	$cs="https://v.qq.com/x/list/tv";
 }
-$vdata0=str_replace("http","http://x3.713713.xyz/vip/v.php?http",http_get_data($cs));
-$vdata1=str_replace("?offset=","http://x3.713713.xyz/vip/v.php?https://v.qq.com/x/list/tv?offset=",$vdata0);
-$vdata=str_replace('href="/x/cover/','href="http://x3.713713.xyz/vip/vip3.php?p=https://v.qq.com/x/cover/',$vdata1);
+$vdata0=str_replace("http","https://herojuno1.herokuapp.com/vip/v.php?http",http_get_data($cs));
+$vdata1=str_replace("?offset=","https://herojuno1.herokuapp.com/v.php?https://v.qq.com/x/list/tv?offset=",$vdata0);
+$vdata=str_replace('href="/x/cover/','href="https://herojuno1.herokuapp.com/vip/vip3.php?p=https://v.qq.com/x/cover/',$vdata1);
 
 function g_contents($url) {
     $ch= curl_init();
